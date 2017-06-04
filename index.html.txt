@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+
+<div class="app">
+    <h1>HazardReporting</h1>
+    <div id="deviceready" class="blink">
+        <p class="event listening">Connecting to Device</p>
+        <p class="event received">Device is Ready</p>
+    </div>
+</div>
+
+<div data-role="page" data-theme="a">
+
+	<div data-role="header">
+		<!-- <h1>Hazard Reporting Apps</h1> -->
+	</div><!-- /header -->
+
+  <div data-role="header">
+  	<div class="ui-grid-solo">
+ 	 <img src="img/Apps_Logo.png">
+  	</div>
+  </div><!-- /content -->
+  
+    <div data-role="main" class="ui-content">
+    <a href="ReportHazard.html" rel="external" class="ui-btn">Report A Hazard</a>
+    <a href=# rel="external" class="ui-btn">Show all Hazards</a>
+  </div>
+ 
+	<div data-role="footer" data-position="fixed">
+		<h4>&copy;Copyright 2017 Signal Institute</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
